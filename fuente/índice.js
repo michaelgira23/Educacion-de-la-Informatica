@@ -17,6 +17,8 @@ const app = expreso();
 app.set('view engine', 'ejs');
 app.set('views', ruta.join(__ruta, 'vistas'));
 
+app.use('/activos', expreso.static(ruta.join(__ruta, 'público')));
+
 app.get('/', (req, res) => {
 	res.render('páginas/inicio');
 });
