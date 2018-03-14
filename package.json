@@ -1,0 +1,26 @@
+{
+  "name": "educacion-de-la-informatica",
+  "version": "1.0.0",
+  "description": "Un sitio de web para \"protestar\" la calidad de educación de computadoras en escuelas para la clase de español",
+  "main": "fuente/índice.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelgira23/Educacion-de-la-Informatica.git"
+  },
+  "keywords": [
+    "español"
+  ],
+  "author": "Miguel Gira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaelgira23/Educacion-de-la-Informatica/issues"
+  },
+  "homepage": "https://github.com/michaelgira23/Educacion-de-la-Informatica#readme",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.3"
+  }
+}
