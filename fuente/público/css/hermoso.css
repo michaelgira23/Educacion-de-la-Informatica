@@ -41,6 +41,10 @@
 	width: 100%;
 }
 
+section {
+	margin-bottom: 2.5rem;
+}
+
 .carousel-control-prev {
 	width: 2.5rem;
 	left: -2.5rem;
